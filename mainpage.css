@@ -1,0 +1,136 @@
+
+body{
+
+    font-family: cursive;
+    animation: backgroundchange 10s infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+@keyframes backgroundchange {
+    0%{
+
+        background-image: linear-gradient(to bottom right, rgb(0, 255, 200), rgb(38, 0, 255));
+
+    }
+    25%{
+
+        background-image: linear-gradient(to bottom right, rgb(0, 204, 255), rgb(0, 98, 255));
+
+    }
+    50%{
+
+        background-image: linear-gradient(to bottom right, rgb(0, 153, 255), rgb(0, 162, 255));
+
+    }
+    100%{
+
+        background-image: linear-gradient(to bottom right, rgb(38, 0, 255), rgb(0, 255, 200));
+
+    }
+
+}
+
+header{
+
+    width: 50%;
+    background-color: rgb(76, 173, 149);
+    border-radius: 10%;
+    margin: auto;
+    box-shadow: rgb(11, 50, 87) 2px 5px;
+
+    
+
+}
+#header, h1{
+
+    text-align: center;
+    color: rgb(49, 85, 184);
+
+}
+
+#logo{
+
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+
+}
+
+h1, h2, h3, h4, h5{
+
+    color: rgb(0, 4, 255);
+    border-radius:  solid 1% rgb(11, 50, 87);
+
+}
+
+h1{
+    width: 60%;
+    float: right;
+
+}
+
+
+
+
+
+}
+
+p{
+
+    background-color: cadetblue;
+    color: blueviolet;
+    border: blue dotted;
+    padding: 2%%;
+
+}
+
+hr{
+
+    color: darkslateblue;
+    width: 40%;
+
+}
+
+nav{
+
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: rgb(11, 50, 87);
+    position: fixed;
+    top: 0;
+
+}
+
+nav a{
+    background-color: rgb(15, 3, 83);
+    color: rgb(250, 250, 250);
+    padding: 10px 20px;
+    margin: 50px;
+    box-shadow: rgb(0, 225, 255) 5px 2px;
+    border-radius: 20%;
+
+}
+
+header{
+    width: 100%;
+    overflow: hidden;
+}
+
+footer{
+    width: 100%;
+    display: block;
+    height: auto;
+    background-color: rgb(119, 0, 255);
+    padding: 5px;
+    border-radius: 10%;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+}
+
+summary{
+    cursor: pointer;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="icon" href="vIcon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="Vimage.jpeg" alt="the letter V">
+        <h1 id="header">Vihaans Blog</h1>
+        <h1>This is about me</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutmepage.html">About me</a>
+        <a href="chesspage.html">Chess</a>
+        <a href="cricketpage.html">Cricket</a>
+        <a href="codingpage.html">Coding</a>
+        <a href="feedbackpage.html">Feedback</a>
+    </nav>
+    <h1>
+        Feedback form for my website
+    </h1>
+    <form action="mailto:vihaanprakash@gmail.com" enctype="text/plain" method="POST" name="My feedback form">
+       <br>
+       <br>
+       <br>
+       <br>
+        <label for="first name">
+            first name
+        </label>
+        <input type="text" name="first name" id="first name">
+            <label for="last name">
+                last name
+            </label>
+            
+            <input type="text" name="last name" id="last name">
+            <br>
+            <label>gender</label>
+            <br>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+            <br>
+            <br>
+            <label for="email">email id</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label>where did you come to know about my website</label>
+            <br>
+            <input type="checkbox" id="internet" value="internet">
+            <label for="internet">internet</label>
+            <br>
+            <input type="checkbox" id="friends" value="friends">
+            <label for="friends">friends</label>
+            <br>
+            <br>
+            <label for="ratings">rating</label>
+            <select name="ratings" id="ratings">
+                <option value="10stars">10 star(s)</option>
+                <option value="9stars">9 star(s)</option>
+                <option value="8stars">8 star(s)</option>
+                <option value="7stars">7 star(s)</option>
+                <option value="6stars">6 star(s)</option>
+                <option value="5stars">5 star(s)</option>
+                <option value="4stars">4 star(s)</option>
+                <option value="3stars">3 star(s)</option>
+                <option value="2stars">2 star(s)</option>
+                <option value="1stars">1 star(s)</option>
+                
+            </select>
+            <br><br><br>
+            <label for="feedback">
+                whats your feedback about my website?
+            </label>
+           <br>
+            <textarea id="Feedbackarea" name="Feedbackarea" rows="5" cols="60">type your feedback here:</textarea>
+            <br><br>
+
+            <input type="submit" name="submit">
+
+            <br><br><br>
+
+
+        
+        
+        
+
+    </form>
+    <footer>
+        <details>
+            <summary>Disclaimer</summary>
+            all the content here belongs to Vihaan
+        </details>
+    </footer>
+</body>
+</html>
